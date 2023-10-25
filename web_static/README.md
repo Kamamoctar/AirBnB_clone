@@ -34,7 +34,7 @@ center boxes
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-#General
+# General
 What is HTML
 How to create an HTML page
 What is a markup language
