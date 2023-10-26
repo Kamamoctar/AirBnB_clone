@@ -40,11 +40,29 @@ article .price_by_night {
 
 article .information {
     height: 80px;
-    border: 1px 0 1px 0 solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.information .max_guest, .information .number_rooms, .information .number_bathrooms {
+    width: 100px;
+    height: 100%;
 }
 .information .max_guest {
-    width: 100px;
+    background-image: url("../images/icon_group.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.information .number_rooms
-.information .number_bathrooms
+.information .number_rooms {
+    background-image: url("../images/icon_bed.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.information .number_bathrooms{
+    background-image: url("../images/icon_bath.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
